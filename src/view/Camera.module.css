@@ -1,0 +1,65 @@
+:root {
+    --width--frame: 30rem;
+    --height--frame: 20rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.videoBox {
+    width: var(--width--frame);
+    height: var(--height--frame);
+    border: 5px solid #000;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 5px solid #000;
+    width: var(--width--frame);
+    height: var(--height--frame);
+}
+
+button {
+    width: 15rem;
+    height: 4rem;
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnCapture {
+    background-color: lightgreen;
+}
+
+.btnClose {
+    background-color: lightblue;
+}
+
+.imgWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.imgWrapper img {
+    padding: 5px;
+}
+
+.imgSize {
+    width: 25rem;
+    height: 14.5rem;
+}
